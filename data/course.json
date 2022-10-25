@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "category": "Marketing",
+        "categoryImg": "https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"
+    },
+    {
+        "id": 2,
+        "category": "It And Software",
+        "categoryImg": "https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+    },
+    {
+        "id": 3,
+        "category": "Bussiness",
+        "categoryImg": "https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg"
+    },
+    {
+        "id": 4,
+        "category": "Photgraphy",
+        "categoryImg": "https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"
+    },
+    {
+        "id": 5,
+        "category": "Music",
+        "categoryImg": "https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"
+    },
+    {
+        "id": 6,
+        "category": "Design",
+        "categoryImg": "https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"
+    }
+]
