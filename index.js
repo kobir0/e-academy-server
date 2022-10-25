@@ -12,14 +12,25 @@ app.get("/", (req, res) => {
     res.send({})
 })
 
-app.get("/cetegory", (req, res) => {
+app.get("/category", (req, res) => {
     res.send(cetegory);
 })
-app.get("/cetegory/:id", (req, res) => {
-    const id = req.params.id;
-    const cetegoryItems = allCetegoryData.filter((p) => p.category == id);
+
+
+app.get("/category/:name", (req, res) => {
+    const name = req.params.name;
+    const cetegoryItems = allCetegoryData.filter((p) => p.category == name);
     res.send(cetegoryItems);
 })
+
+
+app.get("/category/:name/:id", (req, res) => {
+    const id = req.params.id;
+    const singleItem = allCetegoryData.find((p) => p.uid == id);
+    res.send(singleItem);
+})
+
+
 app.listen(Port, () => {
     console.log('server is running:', Port);
 });
