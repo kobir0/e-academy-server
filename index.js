@@ -5,8 +5,14 @@ app.use(cors());
 
 const Port = process.env.Port || 5000;
 
+const cetegory = require("./data/course.json")
+
 app.get("/", (req, res) => {
-    res.send("now runiing")
+    res.send({})
+})
+
+app.get("/cetegory", (req, res) => {
+    res.send(cetegory);
 })
 app.listen(Port, () => {
     console.log('server is running:', Port);
